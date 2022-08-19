@@ -3,7 +3,7 @@
 int main()
 {
     int h , m , s;
-    int d=1;// we add a delay of 10000 milliseconds and we will use it in the function sleep
+    int d=1;// we add a delay of 1 milliseconds and we will use it in the function sleep
     printf("set time\n");
     scanf("%d%d%d",&h,&m,&s);
     if(h>12 || m>60 || s>60)
